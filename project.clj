@@ -8,4 +8,5 @@
                  [org.clojure/java.jdbc "0.3.6"]
                  ]
   :resource-paths ["lib/h2.jar"]
+  :plugins [[lein2-eclipse "2.0.0"]]
   :main webserver.core)
